@@ -1,0 +1,14 @@
+{
+    "entry": "src/index.js",
+    //"hash":true,
+    "extraBabelPlugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile",
+                "libraryDirectory": "es",
+                "style": "css"
+            }
+        ]
+    ]
+}
